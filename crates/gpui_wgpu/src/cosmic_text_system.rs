@@ -385,7 +385,7 @@ impl CosmicTextSystemState {
             .swash_scale_context
             .builder(font_ref)
             .size(pixel_size * params.scale_factor)
-            .hint(true)
+            .hint(false)
             .build();
 
         let sources: &[Source] = if params.is_emoji {
