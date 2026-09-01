@@ -38,7 +38,7 @@ impl LineWrapper {
         }
     }
 
-    pub(crate) fn set_letter_spacing(&mut self, letter_spacing: Option<Pixels>) {
+    pub fn set_letter_spacing(&mut self, letter_spacing: Option<Pixels>) {
         self.letter_spacing = letter_spacing;
     }
 
